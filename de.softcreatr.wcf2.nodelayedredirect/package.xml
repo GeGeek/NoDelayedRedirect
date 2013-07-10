@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="de.softcreatr.wcf2.nodelayedredirect" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/package.xsd">
+	<packageinformation>
+		<packagename><![CDATA[No Delayed Redirect]]></packagename>
+		<packagedescription><![CDATA[This plugin for WoltLab Community Framework 2 (Maelstrom) will remove the delayed redirect after successful login/logout.]]></packagedescription>
+		<isunique>1</isunique>
+		<version>1.0.0</version>
+		<date>2013-07-10</date>
+	</packageinformation>
+
+	<authorinformation>
+        <author><![CDATA[Sascha Greuel]]></author>
+        <authorurl><![CDATA[http://www.softcreatr.de]]></authorurl>
+	</authorinformation>
+
+	<requiredpackages>
+		<requiredpackage minversion="2.0.0 Beta 4">com.woltlab.wcf</requiredpackage>
+	</requiredpackages>
+	
+	<license>
+		<license><![CDATA[Creative Commons <by-sa>]]></license>
+		<licenseURL><![CDATA[http://creativecommons.org/licenses/by-sa/3.0/]]></licenseURL>
+	</license>
+
+	<instructions type="install">
+		<!-- languages -->
+		<instruction type="language">language/*.xml</instruction>
+		
+		<!-- files -->
+		<instruction type="file">files.tar</instruction>
+
+		<!-- config -->
+		<instruction type="option">option.xml</instruction>
+		<instruction type="eventListener">eventListener.xml</instruction>
+	</instructions>
+</package>

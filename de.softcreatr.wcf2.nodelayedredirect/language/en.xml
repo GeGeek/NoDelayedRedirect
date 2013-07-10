@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="en" languagename="English" countrycode="gb">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.login_logout_redirect"><![CDATA[Enable delayed redirect after login/logout]]></item>
+		<item name="wcf.acp.option.login_logout_redirect.description"><![CDATA[Enables the delayed redirect after successful login/logout]]></item>
+	</category>
+</language>
