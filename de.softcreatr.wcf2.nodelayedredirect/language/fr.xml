@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="fr" languagename="French" countrycode="fr">
+<category name="wcf.acp.option">
+<item name="wcf.acp.option.login_logout_redirect"><![CDATA[Activer le délai de la redirection lors de la connexion/déconnexion]]></item>
+<item name="wcf.acp.option.login_logout_redirect.description"><![CDATA[Active le délai de la redirection après s'être connecté/déconnecté avec succès]]></item>
+</category>
+</language>
